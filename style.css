@@ -1,0 +1,94 @@
+/* cor fundo da pagina */
+body {
+  background-color: #eae9e2;
+}
+
+/* barra navegação */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5c60ff;
+}
+
+li {
+  float: left;
+  border-right:2px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #2937ff;
+}
+
+/* titulo H1 */
+#h1 {
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(59, 64, 150);
+    font-style: italic;
+}
+
+/* titulo H3 */
+#h3 {
+    font-family: verdana;
+    font-size: 15px;
+    color: rgb(59, 64, 150);
+    font-style: italic;
+}
+
+/* texto da pagina */
+body {
+  font-size: 13px;
+  font-family: arial;
+}
+
+
+/* galeria de imagens */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 190px;
+}
+
+div.gallery:hover {
+  border: 2px solid #5c60ff;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* botao email */
+.button2 {
+  background-color: #5c60ff;
+  border: black;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
